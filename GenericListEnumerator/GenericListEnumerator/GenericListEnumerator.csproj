@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47E762DB-2AC9-46B1-937B-0E1F6C6A7C79}</ProjectGuid>
+    <ProjectGuid>{D0D5458C-4E43-45D9-8A04-0637271FDC10}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IntegerList</RootNamespace>
-    <AssemblyName>IntegerList</AssemblyName>
+    <RootNamespace>GenericListEnumerator</RootNamespace>
+    <AssemblyName>GenericListEnumerator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IntegerList.cs" />
-    <Compile Include="IIntegerList.cs" />
+    <Compile Include="GenericList.cs" />
+    <Compile Include="GenericListEnumerator.cs" />
+    <Compile Include="IGenericList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
